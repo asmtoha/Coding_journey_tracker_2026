@@ -16,3 +16,12 @@ for _ in range (N):
         array.reverse()
     elif cmd[0] == "print":
         print(array)
+        
+        
+# lst = []
+# for _ in range(int(input())):
+#     cmd = input().split()
+#     if cmd[0] != "print":
+#         exec("lst."+cmd[0]+"("+",".join(cmd[1:])+")")
+#     else:
+#         print(lst)
